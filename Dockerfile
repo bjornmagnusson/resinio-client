@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:15
 RUN npm install balena-cli -g --production --unsafe-perm
 
 # FROM node:8-alpine
